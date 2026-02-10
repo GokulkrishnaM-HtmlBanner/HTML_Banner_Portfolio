@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'Spaceland-Ten';
+    src: url('Spaceland-Ten.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Spaceland-TenOblique';
+    src: url('Spaceland-TenOblique.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+	background: #fff;
+	color: #000;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%
+}
+
+body {
+	margin: 0
+}
+
+img {
+	border: 0
+}
+
+body,
+html {
+	height: 100%
+}
+
+html {
+	box-sizing: border-box;
+}
+
+* {
+	
+	box-sizing: inherit;
+	background-repeat: no-repeat;
+	position: relative;
+	user-select: none
+}
+
+*:before,
+*:after {
+	cursor: inherit;
+	box-sizing: inherit;
+	background-repeat: no-repeat;
+	position: relative;
+	user-select: none
+}
+html {
+	background: transparent
+}
+
+body {
+	width: 300px;
+	height: 600px;
+}
+
+* {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent;
+	-moz-tap-highlight-color: rgba(0, 0, 0, 0);
+	-moz-tap-highlight-color: transparent;
+	text-decoration: none;
+}
+
+
+#ad{
+	overflow:hidden;
+    width: 300px;
+	height: 600px;
+	position:absolute;	
+	top:0px;
+	left:0px;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+#main-container{
+    width: 300px;
+	height: 600px;
+	position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#imgContainer {
+    width: 300px;
+	height: 600px;
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#img1{
+	position: absolute;
+	width: 300px;
+	height: auto;
+	transform: scale(1.1);
+}
+#logocta{
+    width: 300px;
+    height: 60px;
+    bottom: 0px;
+    position: absolute;
+    background-color: #fff;
+    border-top: 1px solid #000;
+	opacity: 0;
+	/* transform-origin: left bottom;
+    -ms-transform: skew(-30deg, 0deg);
+    -webkit-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg); */
+}
+
+#logo{
+	width: 120px;
+	height: auto;
+	position: absolute;
+	right: 15px;
+	top: 0;
+	bottom:0;
+	margin: auto;
+	transform: translate(180px,0px);
+
+}
+
+#cta{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    border: 1px solid #000;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 15px;
+	opacity: 0;
+}
+
+#ctatxt{
+	text-align: center;
+    top: 4px;
+	font-family: "Spaceland-Ten";
+}
+#icon{
+	width: 40px;
+	height: auto;
+	position: absolute;
+	right: 135px;
+	top: 0;
+	bottom:0;
+	margin: auto;
+	transform: translate(180px,0px);
+}
+
+#mainlogo{
+    width: 107px;
+    height: 50px;
+    background-color: #fff;
+    position: absolute;
+    left: 20px;
+    border: 1px solid;
+	transform :translate(0px, -25px) rotateX(-90deg);
+}
+#frame1txtparent{
+    width: 250px;
+    height: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    top: 85px;
+}
+#txt1,#txt2{
+	font-size: 50px;
+	line-height: 50px;
+	font-family: "Spaceland-TenOblique";
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+	color: transparent;
+}
+.txt{
+	opacity: 0;
+}
+#mainlogoimg{    
+	position: absolute;
+    width: 105px;}
